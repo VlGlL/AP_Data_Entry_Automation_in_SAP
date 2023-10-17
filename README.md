@@ -23,7 +23,10 @@ To use the script:
     Ensure you have the SAP GUI installed and the scripting engine enabled.
     Run the script using a VBS interpreter or through the Windows Script Host.
     The script will automatically perform the defined tasks in the SAP GUI, in Process Director - PD, while processing invoices.
-   
+
+Additional information:
+
+As a beginner, i am aware of the fact that the code can me dramatically improved. Also note that this little idea can improve an accounts payable analyst's productivity by 5-7% in terms of invoice processing, thus i would not label it as a gamechanger, but rather a little improvement.
 
 Contributions
 
