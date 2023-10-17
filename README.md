@@ -26,7 +26,7 @@ To use the script:
 
 Additional information:
 
-As a beginner, i am aware of the fact that the code can me dramatically improved. Also note that this little idea can improve an accounts payable analyst's productivity by 5-7% in terms of invoice processing, thus i would not label it as a gamechanger, but rather a little improvement.
+As a beginner, I am aware of the fact that the code can me dramatically improved. Also note that this idea can improve an accounts payable analyst's productivity by 5-7% in terms of invoice processing, thus I would not label it as a gamechanger, but rather a minor improvement.
 
 Contributions
 
@@ -127,7 +127,7 @@ If multiple lines are given to fill, the below loop attempts to go through and e
          On Error Goto 0
      End Function
 
-This the main issue with PR1 is the bug that your control ID "SAPLDISPLAY46:XXXX" can change whenever you process any item. Therefore you will not know (or at least i have not yet found), what your current ID number is. Upon collecting some data, the system switches between the below two set of ID-s (0381 / 0387 - 405 is constant), thus is a workaround.    
+The main issue with PR1 SAP transaction is the bug that your control ID "SAPLDISPLAY46:XXXX" can change whenever you process any item (specific invoices). Therefore you will not know (or at least I have not yet found), what your current ID number is. Upon collecting some data, the system switches between the below two set of ID-s (0381 / 0387 - 405 is constant). Thus the code itself is a workaround for entering data into multiple cells (in our case updating multiple tax codes).    
      
      ' Call the FindByIdLoop function with different sets of parameters
      FindByIdLoop "0381", "0405"
